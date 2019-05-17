@@ -10,7 +10,7 @@ from discord.ext import commands
 
 
 description = "Gives you Pete Davidson gifs, okay?"
-bot = commands.Bot(command_prefix="?", description=description)
+bot = commands.Bot(command_prefix="/", description=description)
 
 okays = [
     "https://media.giphy.com/media/xT9IgrlyzJlE6ljtS0/giphy.gif",
