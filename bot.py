@@ -8,6 +8,8 @@ import random
 import discord
 from discord.ext import commands
 
+
+description = "Gives you Pete Davidson gifs, okay?"
 bot = commands.Bot(command_prefix="?", description=description)
 
 okays = [
