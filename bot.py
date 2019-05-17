@@ -35,7 +35,7 @@ morepete = [
     "https://media.tenor.com/images/020e9694a25eed2b90b881678e263981/tenor.gif",
 ]
 
-notpete = [
+others = [
     "https://media1.giphy.com/media/l0NgRiyoFdg6uspoc/source.gif",
     "https://media.giphy.com/media/Bo1lBI2y1vT0mQ0Ttv/giphy.gif",
     "https://media.giphy.com/media/3o6Mb7fSXeAWwGV7Hy/giphy.gif",
@@ -66,7 +66,7 @@ async def notokay(ctx):
 @bot.command(description="Returns a random gif that does NOT contain Pete Davidson.")
 async def notpete(ctx):
     print("not Pete")
-    await ctx.send(random.choice(notpete))
+    await ctx.send(random.choice(others))
 
 
 @bot.command(description="Returns a gif explaining you're a dick.")
