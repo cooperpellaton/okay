@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix="/", description=description)
 
 okays = [
     "https://media.giphy.com/media/xT9IgrlyzJlE6ljtS0/giphy.gif",
-    "https://thumbs.gfycat.com/ForcefulHopefulJapanesebeetle-max-1mb.gif"
+    "https://thumbs.gfycat.com/ForcefulHopefulJapanesebeetle-max-1mb.gif",
     "https://tenor.com/MWVF.gif",
     "https://tenor.com/TKX1.gif",
     "https://tenor.com/7geU.gif",
