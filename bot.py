@@ -76,7 +76,7 @@ async def dick(ctx):
 
 
 @bot.command(description="Returns a gif about China.")
-async def dick(ctx):
+async def china(ctx):
     print("Someone really loves China.")
     await ctx.send("https://video.twimg.com/tweet_video/D8nWX9sW4AAdWTY.mp4")
 
