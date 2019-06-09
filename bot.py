@@ -75,6 +75,12 @@ async def dick(ctx):
     await ctx.send("https://media1.giphy.com/media/7JgyqZYNM4T3T59Q3H/source.gif")
 
 
+@bot.command(description="Returns a gif about China.")
+async def dick(ctx):
+    print("Someone really loves China.")
+    await ctx.send("https://video.twimg.com/tweet_video/D8nWX9sW4AAdWTY.mp4")
+
+
 # DISCORDTOKEN ENV VAR MUST BE SET OR SERVER WILL NOT RUN
 # EXPORT DISCORDTOKEN=XXXXXXXXXXXXXXX
 bot.run(os.environ.get("DISCORDTOKEN"))
